@@ -17,6 +17,10 @@
             android:enabled="true"
             android:exported="true"
             android:process=":incrementProcess" />
+        <service
+            android:name=".IncrementBoundService"
+            android:enabled="true"
+            android:exported="true"></service>
 
         <activity
             android:name=".MainActivity"
